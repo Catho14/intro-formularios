@@ -1,0 +1,111 @@
+body{
+    background: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar{
+    background-color: #0777BA;
+    display: flex;
+    align-items: center;
+    padding: 15px 0px 15px 100px ;
+}
+.main-page{
+    display: flex;
+    background-color: #f9f9f8;
+    padding: 90px 0px 180px 0px;
+    justify-content: center;
+}
+section{
+    background-color: white;
+    border: 2px solid #f0efef;
+    border-radius: 9px;
+    width: 25em;
+    height: 10em;
+    padding: 20px;
+}
+.title-form{
+    margin: 0px 0px 20px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.title-form  span{
+    font-size: 1.25em;
+    font-family: 'Times New Roman', Times, serif;
+}
+.title-form  a{
+    color: rgb(87, 87, 87);
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+.access{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+}
+.access input{
+    font-weight: normal;
+    color: rgb(206, 199, 199);
+    font-size: 15px;
+    background-color: #EEEEEE ;
+    border: 1px solid #E7E7E7;    
+    padding: 8px;
+    border-radius: 1px;
+    height: 20px;
+    
+}
+.access span{
+    font-family: "Karla", "Helvetica Neue", Arial, Helvetica, sans-serif;
+    font-size: 0.70rem;
+    margin-top: 5px;
+    color: rgb(165, 163, 163);
+}
+
+.button{
+    font-family: 'Open Sans', sans-serif;
+    height: 36px;
+    width: 23.5em;
+    border: none;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 17px;
+    background: #3ea1c1;
+}
+
+.foot{
+    display: flex;
+    flex-direction: row;
+    background: #eee;
+    margin: 3em 0em 4em 7em;
+}
+.foot span{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    color: #556370;
+}
+.privacidad{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #556370;
+    font-family: 'Open Sans', sans-serif;
+}
+.termins{
+    font-style: normal;
+    text-decoration: none;
+    color: #556370;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+.help{
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+    color: #556370;
+    font-family: 'Open Sans', sans-serif;
+    }
+
+}
